@@ -9,6 +9,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 .navbar{
@@ -165,10 +166,16 @@ body{
 
 	.title{
 		text-align: center;
+		padding: 1.5rem;
 	}
 
 	.text{
 		max-width: 700px;
+	}
+
+	.github-org a{
+		color: #f8f8f8;
+		font-size: 3rem;
 	}
 
 }
