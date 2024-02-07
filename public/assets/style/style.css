@@ -107,6 +107,24 @@ body{
 	text-align: justify;
 }
 
+.text span{
+	color: #005577;
+}
+
+.github-org{
+	text-align: center;
+}
+
+.github-org a{
+	color: #f8f8f8;
+	font-size: 15rem;
+}
+
+.github-org a:hover{
+	color: #eee;
+}
+
+
 @media (max-width: 992px) {
 	.navbar {
 		flex-direction: column;
@@ -147,5 +165,10 @@ body{
 
 	.title{
 		text-align: center;
+	}
+
+	.text{
+		max-width: 700px;
+	}
 
 }
