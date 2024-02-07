@@ -93,7 +93,7 @@ body{
 .contact{
 	background-color: #f8f8f8;
 	color: #212121;
-	height: 75vh;
+	height: 60vh;
 }
 
 .title{
@@ -123,6 +123,17 @@ body{
 
 .github-org a:hover{
 	color: #eee;
+}
+
+footer{
+	padding: 1rem;
+	text-align: center;
+	color: #0d0d0d;
+	height: 25vh;
+}
+
+footer h1{
+	font-weight: 300;
 }
 
 
