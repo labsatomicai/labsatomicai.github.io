@@ -1,192 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 *{
-	box-sizing: border-box;
-	font-family: "Noto Sans", sans-serif;
-	scroll-behavior: smooth;
+	font-family: "Ubuntu", sans-serif;
 }
 
-body{
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-}
-
-.navbar{
-	display: flex;
-	position: relative;
-	justify-content: space-between;
-	align-items: center;
-	background-color: transparent;
-	color: #212121;
-}
-
-.nav-links{
-	height: 100%;
-}
-
-.nav-links ul{
-	display: flex;
-	margin: 0;
-	padding: 0;
-}
-
-.nav-links li{
-	list-style: none;
-}
-
-.nav-links li a{
-	display: block;
-	text-decoration: none;
-	color: #212121;
-	padding: 2rem;
-}
-
-.nav-links li:hover{
-	background-color: #eee;
-}
-
-.toggle-button{
-	position: absolute;
-	top: .75rem;
-	right: 1rem;
-	display: none;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 30px;
-	height: 21px;
-}
-
-.toggle-button .bar{
-	height: 3px;
-	width: 100%;
-	background-color: #212121;
-	border-radius: 10px;
-}
-
-.about{
-	width: 50%;
-	padding: 1rem 1rem 20rem;
-	display: grid;
-	gap: 100px;
-	grid-template-columns: 1fr 1fr;
-	margin: auto;
-}
-
-.about-us{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	margin: auto;
-}
-.about-us p{
-	font-size: 18px;
-	text-align: justify;
-}
-
-.development{
-	background-color: #212121;
-	color: #f8f8f8;
-	height: 75vh;
-}
-
-.contact{
-	background-color: #f8f8f8;
-	color: #212121;
-	height: 60vh;
+.title-and-desc{
+	background-image: url("../../img/banner_bg.jpg");
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 2rem;
 }
 
 .title{
-	font-size: 1.5rem;
-	padding: 2rem 20rem 1rem;
+	padding-top: 20rem;
+	font-size: 3rem;
+	font-weight: bold;
 }
 
-.text{
-	margin: auto;
-	max-width: 900px;
-	padding: 1rem;
-	text-align: justify;
-}
-
-.text span{
-	color: #005577;
-}
-
-.github-org{
-	text-align: center;
-}
-
-.github-org a{
-	color: #f8f8f8;
-	font-size: 15rem;
-}
-
-.github-org a:hover{
-	color: #eee;
-}
-
-footer{
-	padding: 1rem;
-	text-align: center;
-	color: #0d0d0d;
-	height: 25vh;
-}
-
-footer h1{
-	font-weight: 300;
-}
-
-
-@media (max-width: 992px) {
-	.navbar {
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.toggle-button {
-		display: flex;
-	}
-
-	.nav-links {
-		display: none;
-		width: 100%;
-	}
-
-	.nav-links ul {
-		width: 100%;
-		flex-direction: column;
-		margin-top: 6rem;
-	}
-
-	.nav-links ul li {
-		text-align: center;
-	}
-
-	.nav-links ul li a {
-		padding: .5rem 1rem;
-	}
-
-	.nav-links.active {
-		display: flex;
-	}
-
-	.about{
-		display: flex;
-		flex-direction: column;
-	}
-
-	.title{
-		text-align: center;
-		padding: 1.5rem;
-	}
-
-	.text{
-		max-width: 700px;
-	}
-
-	.github-org a{
-		color: #f8f8f8;
-		font-size: 3rem;
-	}
-
+.desc{
+	font-size: 1.2rem;
 }
