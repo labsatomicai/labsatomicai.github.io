@@ -14,8 +14,11 @@
 	font-size: 2rem;
 }
 
+.project-info{
+    padding-top: 20rem;
+}
+
 .title{
-	padding-top: 20rem;
 	font-size: 3rem;
 	font-weight: bold;
 }
