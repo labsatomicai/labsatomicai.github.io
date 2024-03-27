@@ -77,11 +77,10 @@
 .development-section{
     background: #0d0d0d;
     color: #f8f8f8;
-    height: 75vh;
 }
 
 .slogan{
-    padding: 7rem;
+    padding: 2rem 7rem;
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -89,12 +88,11 @@
 .join > h1{
     padding: 1rem 7rem;
     font-weight: 700;
-}
+		 }
 
 
-.join > p{
-    font-size: 24px;
-    padding: 0rem 7rem;
-    text-align: center;
+
+
+join > p{
 }
 
