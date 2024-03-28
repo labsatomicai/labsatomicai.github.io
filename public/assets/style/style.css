@@ -81,7 +81,7 @@
 }
 
 .slogan{
-    padding: 7rem;
+    padding: 3rem 7rem;
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -93,8 +93,43 @@
 
 
 .join > p{
-    font-size: 24px;
+    font-size: 18px;
     padding: 0rem 7rem;
     text-align: center;
 }
 
+.footer-info{
+    padding: 2rem 7rem;
+}
+
+.footer-info > span{
+    font-weight: 600;
+    color: #595959;
+}
+
+.footer-info ul{
+    list-style: none;
+}
+
+.footer-info li{
+    margin: 10px 0;
+}
+
+.footer-info li > a{
+    text-decoration: none;
+    color: #262626;
+}
+
+.footer-info > p{
+    color: #595959;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar >  ul{
+	display: none;
+    }
+
+    .development-section{
+	height: 100vh;
+    }
+}
